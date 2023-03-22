@@ -1,3 +1,5 @@
-const Fallback = () => <div>Loading...</div>;
+function Fallback() {
+  return <div>Loading...</div>;
+}
 
 export default Fallback;

@@ -1,0 +1,67 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2px;
+  margin-bottom: 5rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.01));
+  &__section1 {
+    display: flex;
+    align-items: center;
+    .company {
+      display: flex;
+      .logo {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2px;
+        &__box {
+          width: 10px;
+          height: 10px;
+          &:nth-of-type(1) {
+            background-color: #f25022;
+          }
+          &:nth-of-type(2) {
+            background-color: #7fba00;
+          }
+          &:nth-of-type(3) {
+            background-color: #00a4ef;
+          }
+          &:nth-of-type(4) {
+            background-color: #ffb900;
+          }
+        }
+      }
+    }
+  }
+  h4 {
+    color: white;
+    font-size: 20px;
+    margin-left: 8px;
+  }
+  &__list {
+    color: white;
+    margin-left: 2rem;
+    display: flex;
+    gap: 1.5rem;
+    .menu {
+      display: flex;
+      flex-direction: column;
+      p {
+        cursor: pointer;
+      }
+    }
+  }
+  &__section2 {
+    color: white;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    svg {
+      font-size: 20px;
+    }
+    .hamburger {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.menu-list {
+  position: absolute;
+  top: 8px;
+  z-index: 1;
+  margin-top: 1rem;
+  width: 10rem;
+  //   padding: 0 1rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  color: rgba(0, 0, 0, 0.7);
+  p {
+    padding: 0.8rem;
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.1);
+    }
+  }
+}

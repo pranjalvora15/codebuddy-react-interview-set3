@@ -1,7 +1,11 @@
-import Router from './Router';
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+// import Router from './Router';
+// import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles/index.css';
+import Home from './Components/Home';
 
-const App = () => <Router />;
+function App() {
+  return <Home />;
+}
 
 export default App;
