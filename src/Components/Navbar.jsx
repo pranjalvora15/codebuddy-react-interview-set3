@@ -35,9 +35,9 @@ export default function Navbar() {
         </div>
       </div>
       <div className="navbar__section2">
-        <p>Sign In</p>
+        <div>Sign In</div>
         <RxAvatar />
-        <p>Rewards</p>
+        <div>Rewards</div>
         <AiFillTrophy />
         <div className="hambuger">
           <GiHamburgerMenu onClick={() => setHamburgerFlag(!hamburgerFlag)} />

@@ -1,12 +1,12 @@
 import '../styles/Main.scss';
-import Carousel from './Carousel';
+import NewsContainer from './NewsContainer';
 import SearchBox from './SearchBox';
 
 export default function Main() {
   return (
     <div className="main">
       <SearchBox />
-      <Carousel />
+      <NewsContainer />
     </div>
   );
 }
